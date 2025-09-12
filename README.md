@@ -1,8 +1,10 @@
 # 📝 TaskFlow - A React Kanban Board
 
-TaskFlow is a simple and effective Kanban board built with React. It helps you organize your tasks, track their progress, and boost your productivity.
+TaskFlow is a modern project management tool designed to help you visualize your workflow, limit work-in-progress, and maximize efficiency. This application features drag-and-drop functionality, task creation, and utilizes browser local storage to persist your board state.
 
-**Live Demo:** [Link to your deployed website here]
+
+
+**Live Demo:** [View Project]
 
 ---
 
@@ -11,10 +13,8 @@ TaskFlow is a simple and effective Kanban board built with React. It helps you o
 Here's a glimpse of what TaskFlow looks like in action.
 
 * **Main Board View:** Shows all the columns and tasks.
-    ![TaskFlow Main Board](./screenshots/main-board.png)
+    ![TaskFlow Main Board](https://github.com/user-attachments/assets/0e8cb0f7-1c01-4ae9-8423-b083f53792a2)
 
-* **Dragging a Task:** A demonstration of the drag-and-drop functionality.
-    ![Dragging a Task in TaskFlow](./screenshots/dragging-task.png)
 
 
 ---
