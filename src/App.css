@@ -428,3 +428,78 @@ body {
 .react-datepicker__popper[data-placement^="bottom"] .react-datepicker__triangle::before {
     border-bottom-color: var(--datepicker-bg) !important;
 }
+
+
+/* For Tablets and smaller devices */
+@media (max-width: 820px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  /* Make Add Task form stack vertically */
+  .add-task-container {
+    flex-direction: column;
+    align-items: stretch; /* Make all items stretch to full width */
+  }
+
+  /* Make all inputs in the form full width */
+  .task-input, .priority-select, .date-picker-wrapper, .add-task-button {
+    width: 100%;
+    box-sizing: border-box; /* Important for width: 100% to work correctly with padding */
+  }
+
+  /* Allow analytics boxes to wrap and stack */
+  .analytics-container {
+    flex-wrap: wrap;
+  }
+  .stat-box, .chart-box {
+    flex-basis: 45%; /* Allow two boxes side-by-side on tablets */
+  }
+
+  /* Make Kanban board stack vertically */
+  .board-container {
+    flex-direction: column;
+    align-items: center; /* Center the columns vertically */
+    gap: 20px;
+  }
+  
+  /* Make columns take up most of the screen width */
+  .column {
+    width: 95%;
+  }
+
+  /* Make main title smaller */
+  .app-title {
+    font-size: 3rem;
+  }
+}
+
+/* For small mobile phones */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .navbar {
+    padding: 10px 15px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .app-title {
+    font-size: 2.5rem;
+  }
+
+  .app-tagline {
+    font-size: 1rem;
+  }
+
+  /* Make analytics boxes take full width and stack */
+  .stat-box, .chart-box {
+    flex-basis: 100%; 
+  }
+
+  .search-input {
+    width: 90%;
+  }
+}
